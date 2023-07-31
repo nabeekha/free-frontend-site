@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- this code is used to declare the beginning of the website! -->
+<!-- This code is used to declare the beginning of the website! -->
 
 <head>
     <meta charset="UTF-8">
@@ -10,34 +10,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<!-- this code is used to create a navigation bar that can be used to route to different pages! -->
+<!-- This code is used to create a navigation bar that can be used to route to different pages! -->
 
 <body>
     <header>
+        <!-- Navigation Bar -->
         <nav>
             <ul>
+                <!-- Home Page Link -->
                 <li><a href="index.html">Home</a></li>
+                <!-- About Page Link -->
                 <li><a href="about.html">About</a></li>
+                <!-- Contact Page Link -->
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main Content Section -->
     <section class="main-content white-text">
+        <!-- Main Heading -->
         <h1>Welcome to Our Example Website!</h1>
+        <!-- Description Paragraph -->
         <p>This example website template is free for you to use! Please feel free to take the code from the repository to use for your own projects!</p>
     </section>
 
     <section>
+        <!-- Container for About Section -->
         <div class="container white-text">
-            <p>To learn more about coding and for free resources, subscribe to the Build with Beel Newsletter and
-                Youtube
-                channel!</p>
+            <!-- About Description -->
+            <p>To learn more about coding and for free resources, subscribe to the Build with Beel Newsletter and Youtube channel!</p>
+            <!-- YouTube Channel Button -->
             <button class="btn youtube-channel-button" id="youtube-btn">YouTube Channel</button>
         </div>
 
-<!-- this code is from the substack API and can be used to subscrube to a newsletter! -->
+        <!-- Custom Substack Widget Section -->
         <div id="custom-substack-embed"></div>
+        <!-- Substack API Widget -->
         <script>
             window.CustomSubstackWidget = {
                 substackUrl: "devswatch.substack.com",
@@ -46,16 +55,20 @@
                 theme: "purple"
             };
         </script>
+        <!-- Substack API Script -->
         <script src="https://substackapi.com/widget.js" async></script>
-        <!-- remove up to this line of code if you do not want the substack button -->
+        <!-- Remove up to this line of code if you do not want the substack button -->
     </section>
 
     <br></br>
 
+    <!-- Footer Section -->
     <footer>
+        <!-- Copyright Information -->
         <p>&copy; 2023 Example Company. All rights reserved.</p>
     </footer>
 
+    <!-- Custom JavaScript File -->
     <script src="script.js"></script>
 </body>
 

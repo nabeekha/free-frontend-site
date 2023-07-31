@@ -1,3 +1,4 @@
+/* Styling for the entire body of the website */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
@@ -6,91 +7,105 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    /* background image linked from Vecteezy.com */
-    background-image: url("./assets/vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg"); /* Replace "path/to/your/image.jpg" with the actual path to your background image */
+    min-height: 100vh; /* Ensures the body takes up at least the full viewport height */
+    background-image: url("./assets/vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg"); /* Background image linked from Vecteezy.com */
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  
-  header {
-    position: fixed;
+}
+
+/* Styling for the header section */
+header {
+    position: fixed; /* Fixed position to stick to the top of the viewport */
     top: 0;
     left: 0;
     background-color: #232f3e;
     color: #fff;
     padding: 20px;
     width: 100%;
-  }
-  
-  header h1 {
+}
+
+/* Styling for the main heading in the header section */
+header h1 {
     font-size: 36px;
     margin: 0;
-  }
-  
-  header p {
+}
+
+/* Styling for the paragraph in the header section */
+header p {
     font-size: 18px;
     margin-top: 10px;
-  }
-  
-  nav {
+}
+
+/* Styling for the navigation bar */
+nav {
     background-color: #232f3e;
     padding: 10px;
-  }
-  
-  nav ul {
+}
+
+/* Styling for the list in the navigation bar */
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-  }
-  
-  nav ul li {
+}
+
+/* Styling for each list item in the navigation bar */
+nav ul li {
     margin: 0 15px;
-  }
-  
-  nav ul li a {
+}
+
+/* Styling for each link in the navigation bar */
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
     padding: 5px 10px;
     border-radius: 5px;
-  }
-  
-  nav ul li a:hover {
+}
+
+/* Styling when hovering over a link in the navigation bar */
+nav ul li a:hover {
     background-color: #37475a;
-  }
-  
-  .main-content {
+}
+
+/* Styling for the main content section */
+.main-content {
     padding: 40px;
     text-align: center;
-  }
-  
-  .main-content h1 {
+}
+
+/* Styling for the main heading in the main content section */
+.main-content h1 {
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  .main-content p {
+}
+
+/* Styling for the paragraphs in the main content section */
+.main-content p {
     font-size: 18px;
     line-height: 1.6;
-  }
+}
 
-  form {
+/* Styling for the form elements */
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Styling for each form field container */
 form div {
     margin-bottom: 10px;
 }
 
+/* Styling for form labels */
 label {
     display: block;
     margin-bottom: 5px;
 }
 
+/* Styling for text inputs, email inputs, and textareas in the form */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -100,11 +115,13 @@ textarea {
     width: 100%;
 }
 
-  .white-text {
-    color: white
- }
-  
-  .btn {
+/* Styling to make text white for specific elements */
+.white-text {
+    color: white;
+}
+
+/* Styling for the buttons */
+.btn {
     padding: 12px 24px;
     background-color: #007BFF;
     color: #fff;
@@ -112,32 +129,37 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
+}
+
+/* Styling when hovering over a button */
+.btn:hover {
     background-color: #0056b3;
-  }
-  
-  section {
+}
+
+/* Styling for the section containers */
+section {
     width: 100%;
     text-align: center;
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-  #custom-substack-embed {
+/* Styling for the custom substack embed */
+#custom-substack-embed {
     /* Add more styling properties here if needed */
     margin-top: 20px; /* Optional: Add some top margin for spacing */
-  }
-  
-  .container {
+}
+
+/* Styling for the container element */
+.container {
     padding: 40px;
-  }
-  
-  footer {
-    position: fixed;
+}
+
+/* Styling for the footer section */
+footer {
+    position: fixed; /* Fixed position to stick to the bottom of the viewport */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -145,5 +167,6 @@ textarea {
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
+}
+
   

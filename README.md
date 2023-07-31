@@ -18,7 +18,7 @@ Welcome to the Example Front-end Website! This is a simple and responsive front-
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/example-website.git`
+1. Clone the repository: `git clone https://github.com/nabeekha/free-frontend-site`
 2. Open the `index.html` file in your web browser to view the home page.
 3. Navigate to the About and Contact pages using the links in the navigation bar.
 

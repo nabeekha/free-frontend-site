@@ -7,9 +7,16 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    /* background image linked from Vecteezy.com */
+    background-image: url("./assets/vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg"); /* Replace "path/to/your/image.jpg" with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #232f3e;
     color: #fff;
     padding: 20px;
@@ -68,6 +75,34 @@ body {
     font-size: 18px;
     line-height: 1.6;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+  .white-text {
+    color: white
+ }
   
   .btn {
     padding: 12px 24px;
@@ -102,6 +137,10 @@ body {
   }
   
   footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #232f3e;
     color: #fff;
     padding: 20px;
